@@ -1,0 +1,267 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivam Kashyap - Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+              <img src="https://i.ibb.co/jvV2VR6/trashed-1731596685-images.jpg" alt="trashed-1731596685-images" border="0">
+                <h1>Shivam Kashyap</h1>
+                <p>Web Developer</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#Achievements">Achievements </a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Banner -->
+    <section id="home" class="banner">
+        <h2>Dark Website selling low price ,your fovarite website i will send you whatsapp .
+        my Whatsapp NO. 9532970619</h2>
+        <p>Creating Engaging, Modern, and Dark-Aesthetic Websites</p>
+        <a href="#portfolio" class="cta">Check Out My Work</a>
+    </section>
+
+ 
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h3>Portfolio</h3>
+        <div class="portfolio-grid">
+            <!-- Portfolio items go here -->
+            <div class="portfolio-item">Project 1</div>
+            <div class="portfolio-item">Project 2</div>
+            <div class="portfolio-item">Project 3</div>
+        </div>
+    </section>
+  
+
+    
+    <!-- Achievements Section -->
+    <section id="achievements">
+        <h2>Achievements</h2>
+        <div class="card-container">
+        <!-- Achievements item go here -->
+            <div class="card glow-card"><img src="https://i.ibb.co/3hZjVXt/IMG-20241105-182524.jpg" alt="IMG-20241105-182524" border="0"></a></div>
+            <div class="card glow-card"><img src="https://i.ibb.co/Qcd2NB3/Screenshot-2024-11-05-19-31-46-153-com-techbajao-htmleditor-edit.jpg" alt="Screenshot-2024-11-05-19-31-46-153-com-techbajao-htmleditor-edit" border="0"></a></a></div>
+            <div class="card glow-card">Achievement 3</div>
+            <div class="card glow-card">Achievement 4</div>
+            <div class="card glow-card">Achievement 5</div>
+            <div class="card glow-card">Achievement 6</div>
+            <!-- add more items as needed -->
+        </div>
+    </section>
+
+    
+
+
+    <!-- About Section -->
+    <section id="about">
+        <h3>About Me</h3>
+        <p>Hiii i am shivam kaskayp i have create website  for selling purpose ,you like any website form would like a message and i will send you </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h3>Contact Me</h3>
+        <form>
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Shivam Kashyap. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+<style>/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #1c1c1c;
+    padding: 1rem 0;
+    border-bottom: 2px solid #333;
+}
+
+header .container {
+    display:size10%;
+    justify-content: space-between
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 1.5rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: #00bcd4;
+}
+
+/* Banner */
+.banner {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: url('https://ibb.co/QfFrQkf') no-repeat center center/cover;
+}
+
+.banner h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.banner p {
+    font-size: 1.2rem;
+}
+
+.banner .cta {
+    padding: 0.5rem 1rem;
+    color: #000;
+    background-color: #00bcd4;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+/*Achievements Section */
+#Achievements{
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.Achievements-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.Achievements-cards .card {
+    background: #2c2c2c;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 30%;
+}
+
+/* Portfolio Section */
+#portfolio {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.portfolio-item {
+    background: #333;
+    padding: 2rem;
+    border-radius: 5px;
+}
+img{
+  width:160px;
+  height:160px;
+  object-fit:container;
+}
+  
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    width: 150px;
+    height: 200px;
+    background: #1a1a1a;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.glow-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 15px #00c3ff, 0 0 30px #00c3ff, 0 0 45px #00c3ff;
+    
+}
+
+/* Contact Section */
+#contact {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+#contact form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#contact input, #contact textarea, #contact button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+}
+
+#contact button {
+    background-color: #00bcd4;
+    border: none;
+    color: #000;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background: #1c1c1c;
+    text-align: center;
+    padding: 1rem;
+    border-top: 2px solid #333;
+}
+</style>
